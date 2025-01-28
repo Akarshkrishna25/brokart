@@ -16,6 +16,6 @@ Returns:
      
     return render(request,'products.html')
 
-def detailed_product(request):
+def detail_product(request):
     return render(request,'product_deatails.html')
 
